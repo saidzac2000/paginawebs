@@ -1,0 +1,12 @@
+var nam1 = document.getElementById('nam1');
+var nam2 = document.getElementById('nam2');
+var nam3 = document.getElementById('nam3');
+var nam4 = document.getElementById('nam4');
+var name1;
+var name2;
+var name3;
+var name4;
+var s1 = 0;
+var s2 = 0;
+var s3 = 0;
+var s4 = 0;

@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    text-align: center;
+    color: #e3ddd9;
+}
+body{
+    background-image: linear-gradient(-45deg, #e3ddd9 50%, #36221c 50%);
+    min-height: 100vh;
+}
+button{
+    background-color: transparent;
+    border: black solid;
+    font-size: larger;
+    background: cover;
+    font-family: 'Bitter', serif;
+    color: #546787;
+}
+
+.carusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+.elementon{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(#36221c 50%, #e3ddd9 50%);
+    font-size: xx-large;
+}
+.elementon:hover{
+    cursor: pointer;
+}
